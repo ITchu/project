@@ -1,0 +1,664 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 600px;
+}
+.header{
+	width: 100%;
+	height:100%;
+	background: #000;
+	position: relative;
+}
+.header-img img{
+	width: 100%;
+	height: 100%;
+}
+.zhe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+.mu{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+}
+.mu-left{
+	position: relative;
+	display: inline;
+	z-index: 2;
+}
+.mu-left li{
+	display: inline;
+	margin-right: 30px;
+}
+.mu-left li a{
+	font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.mu-left li a:hover{
+	color:#fff;
+}
+.mu .h1{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	top: -12px;
+	margin-bottom: 30px;
+}
+.mu .h1 a{
+	font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.mu .h1 span{
+	color: #8dc63f;
+}
+.mu-right{
+	position: relative;
+	display: inline;
+	float: right;
+	z-index: 2;
+}
+.mu-right li{
+	/* margin-left: 30px; */
+	display: inline;
+	margin: 30px 0 30px 30px;
+}
+.mu-right li a{
+	height: 50px;
+	font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+.mu-right li a:hover{
+	color:rgba(255,255,255,1);
+}
+.login{
+	padding: 7px 20px;
+	border:2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 7px;
+
+}
+.jian{
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	float: left;
+}
+.jian h2{
+	font-size: 70px;
+    line-height: 87px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 90px;
+    width: 75%;
+}
+.witch{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 30px;
+    min-width: 200px;
+    font-size: 18px;
+    border: 2px solid #808080;
+    transition: 0.3s;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+.witch i{
+	margin-right: 10px;
+}
+.witch:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-color: #bbb9b9;
+}
+.visit{
+	background: #8dc63f;
+    color: #fff;
+    border: 2px solid #8dc63f;
+    padding: 20px 30px;
+    min-width: 200px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.more{
+	position: absolute;
+    bottom: -25px;
+    left: 50%;
+    z-index: 12;
+    text-align: center;
+}
+.more a{
+	color: #8dc63f;
+	transition: 0.5s;
+}
+.text{
+	display: block;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
+.down{
+	display: block;
+    width: 50px;
+    height: 50px;
+    background: #8dc63f;
+    border-radius: 50%;
+}
+.down i{
+	color: #fff;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px;
+}
+/* 头部结束 */
+/* 项目开始 */
+.project{
+    height: auto;
+    overflow: hidden;
+    padding: 120px 0;
+    position: relative;
+}
+.our{
+	margin-bottom: 80px;
+    text-align: center;
+    color: #85919d;
+}
+.our h2{
+	font-size: 50px;
+    font-weight: 300;
+    color: #484c50;
+    margin-bottom: 10px;
+}
+.our p{
+	font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+}
+.scale{
+	width: 717px;
+	height: 475px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.6);
+	z-index:10;
+	transform: scale(0, 0);
+}
+.active{
+	transform: scale(1, 1);
+}
+.left i{
+	font-size: 50px;
+	position: absolute;
+	left: -40%;
+	top: 50%;
+	margin-top: -30px;
+	color: rgba(255,255,255,0.6);
+}
+.right i{
+	font-size: 50px;
+	position: absolute;
+	right: -40%;
+	top: 50%;
+	margin-top: -30px;
+	color: rgba(255,255,255,0.6);
+}
+.delete{
+	position: absolute;
+	top: -8%;
+	right: -8%;
+	color:rgba(255,255,255,0.6);
+}
+.delete i{
+	font-size: 30px;
+}
+.wen{
+	position: absolute;
+	bottom: -6%;
+	right: 10px;
+	font-size: 16px;
+	color: #fff;
+}
+.scale i:hover{
+	color: #fff;
+}
+.our-img{
+	display: block;
+    width: 100%;
+    position: relative;
+    background:#fff;
+    overflow: hidden;
+    z-index: 9;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+.our-img:hover img{
+   opacity: 0.6;
+}
+.our-img img{
+	display: block;
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+.our-text{
+	padding: 30px 10px 10px 20px;
+    text-align: center;
+}
+.our-text h2{
+	font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #484c50;
+}
+.our-text p{
+	color: #85919d;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+/* 项目结束 */
+/* 项目2开始 */
+.perfect{
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+.per{
+	text-align: center;
+	width: 66.66667%;  
+	margin: 0 auto;
+}
+.per h2{
+	font-size: 50px;
+    font-weight: 300;
+    color: #484c50;
+    margin-bottom: 30px;
+}
+.per p{
+	font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #85919d;
+    margin-bottom: 50px;
+}
+.per-box{
+	text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+.per-icon{
+	width: 112px;
+	height: 112px;
+	border-radius: 50%;
+	background: #e6f2d4;
+	margin: 30px auto;
+}
+.per-icon i{
+	font-size: 50px;
+	color: #8dc63f;
+	line-height: 112px;
+	text-align: center;
+}
+.per-box h3{
+	font-size: 20px;
+    margin-bottom: 20px;
+    color: #484c50;
+    font-weight: 400;
+}
+.per-box p{
+	margin: 0 0 10px;
+	font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #85919d; 
+}
+/* 项目2结束 */
+/* 项目3开始 */
+.super{
+	background: #f9f9f9;
+	overflow: hidden;
+	height: auto;
+	padding:4em 0;
+}
+.super img{
+	vertical-align: middle;
+}
+.super h2{
+	font-size: 50px;
+    font-weight: 300;
+    color: #484c50;
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+.sup{
+	clear: both;
+	margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+.supI{
+	float: left;
+    width: 10%;
+}
+.supI i{
+	font-size: 40px;
+	text-align: center;
+	color: #8dc63f;
+}
+.supT{
+	float: right;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.supT h3{
+	font-size: 24px;
+    color: #484c50;
+    margin-bottom: 10px;
+    font-weight: 300;√
+}
+.supT p{
+	font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #85919d;
+}
+.mo{
+	width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.mo .btn{
+
+	margin-left: 15%;
+	border-radius: 4px;
+	padding: 20px 30px;
+    width: 200px;
+    font-size: 18px;
+	background: #8dc63f;
+    color: #fff;
+    border: 2px solid #8dc63f;
+}
+/* 项目3结束 */
+/* 项目4开始 */
+.join{
+	overflow: hidden;
+	height: auto;
+	position: relative;
+	padding: 120px 0;
+	/* padding-bottom: 120px; */
+}
+.jo{
+	text-align: center;
+	width: 66.66667%;  
+	margin: 0 auto;
+}
+.jo h2{
+	font-size: 45px;
+    font-weight: 100;
+    color: #484c50;
+    margin-bottom: 40px;
+}
+.jo p{
+	font-size: 20px;
+    line-height: 46px;
+    color: #85919d;
+    margin-bottom: 50px;
+}
+.jo .p2{
+	font-size: 16px;
+}
+.tx{
+    position: relative;
+}
+.tx ul{
+	width: 100%;
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tx ul li{
+	margin: 0 6px;
+    display: inline-block;
+}
+.tx ul img{
+	width: 50px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+.tx ul img:hover{
+	opacity: 0.4;
+}
+/* 项目4结束 */
+.subscr{
+	overflow: hidden;
+	height: auto;
+	padding: 3em 0;
+	background: #f9f9f9;
+}
+.subscr h3{
+	float: left;
+    top: 10px;
+    font-size: 26px;
+    margin-bottom: 0;
+    position: relative;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    color: #484c50;
+}
+.subscr form{
+	width: 60%;
+    float: right;
+    position: relative;
+}
+.subscr i{
+	position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 10px;
+    font-size: 25px;
+    color: #85919d;
+}
+.subscr input[type="email"]{
+	width: 100%;
+    background: #ededed;
+    border: none;
+    padding-left: 50px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #555555;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.subscr input[type="submit"]{
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 54px;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 20px;
+    font-weight: 300;
+    width: 160px;
+    background: #8dc63f;
+    color: #fff;
+    border: 2px solid #8dc63f;
+
+}
+/* 尾部开始 */
+footer{
+	padding: 5em 0;
+}
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.list h3{
+	font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #484c50;
+}
+.list li{
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+.list a{
+	color: #6a7885;
+}
+.list a:hover{
+	text-decoration: underline;
+}
+.list p{
+	color: #6a7885;
+	line-height: 28px;
+}
+.box ul:last-child li{
+	padding:4px 7px;
+	float: left;
+}
+.list a i{
+	font-size: 22px;
+}
+.box a:hover{
+	text-decoration: none;
+	color: #8dc63f;
+}
+@media screen  and (max-width: 1200px) and (min-width: 992px){
+	.jian h2{
+		font-size: 60px;
+	}
+}
+@media screen  and (max-width: 992px) and (min-width: 768px){
+	.per{
+		width: 90%;
+	}
+	.jian h2{
+		font-size: 40px;
+		text-align: center;
+		width: 90%;
+	}
+	.per-box p{
+		margin: 0 10px;
+		box-sizing: border-box;
+	}
+	.super img{
+		max-width: 100%;
+	}
+	.super h2{
+		max-width: 90%;
+		padding: 0 1em;
+	}
+	.sup{
+		max-width: 90%;
+	}
+	.jo{
+		width: 100%;
+	}
+	.subscr h3{
+		width: 100%;
+	}
+	.subscr form{
+		width: 100%;
+		padding: 10px 20px;
+	}
+	.subscr input[type="submit"]{
+		top: 10px;
+	}
+	footer div{
+		margin: 10px 0;
+	}
+	.list li{
+		margin-bottom: 8px;
+	}
+	.list h3{
+		margin-bottom: 15px;
+	}
+}
+@media screen  and (max-width: 768px){
+	.mu-left{
+		display: none;
+	}
+	.mu-right{
+		display: none;
+	}
+	.jian h2{
+		font-size: 30px;
+		line-height: 60px;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.witch{
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+		margin: 0 40px 20px 40px;
+	}
+	.visit{
+		display: block;
+		text-align: center;
+		margin: 40px 40px 20px 40px;
+	}
+	.text{
+		margin-left: -75px;
+	}
+	.down{
+		margin-left: -25px;
+	}
+	.super img{
+		max-width: 100%;
+	}
+	.super h2{
+		max-width: 90%;
+		padding: 0 1em;
+	}
+	.sup{
+		max-width: 90%;
+	}
+	.per{
+		width: 95%;
+	}
+	.per h2{
+		margin-bottom: 30px;
+	}
+	.jo{
+		width: 95%;
+	}
+	.subscr h3{
+		font-size: 23px;
+	}
+	.subscr form{
+		width: 100%;
+	}
+	.subscr input[type="email"]{
+		font-size:15px; 
+	}
+	.subscr input[type="submit"]{
+		font-size: 20px;
+		width: 120px;
+	}
+	footer div{
+		margin: 10px 0;
+	}
+	.list li{
+		margin-bottom: 8px;
+	}
+	.list h3{
+		margin-bottom: 15px;
+	}
+}
